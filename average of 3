@@ -1,0 +1,8 @@
+num1 = str(input("enter a number"))
+num2 = str(input("enter a number again"))
+num3 = str(input("enter a number for the last time"))
+newnum1 = float(num1)
+newnum2 = float(num3)
+newnum3 = float (num2)
+average = float((newnum1 + newnum2 + newnum3)) / 3
+print(average)
