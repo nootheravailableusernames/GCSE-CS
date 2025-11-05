@@ -1,0 +1,2 @@
+temp = input( what is the temp in degrees celsius)
+float(temp)
