@@ -1,0 +1,7 @@
+Print the score and the pass/fail result.
+score = int(input("Enter your exam score: "))
+print("Score:", score)
+if passed:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
