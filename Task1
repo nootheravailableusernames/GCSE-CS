@@ -1,0 +1,9 @@
+item_name = "Notebook"
+price = 10.0
+has_discount_card = True
+if has_discount_card:
+    price = price * 0.9  # 10% discount
+print("Item:", item_name)
+print("Final Price: $", price)
+
+
