@@ -1,0 +1,40 @@
+unit = input("enter the current temperature measurement ")
+unit2 = input("enter the new measurement ")
+value = float(input("enter the value "))
+if unit == "celsius":
+    if unit2 == "fahrenheit":
+        print(value * 9 / 5 + 32)
+    elif unit2 == "kelvin":
+        print(value + 273.15)
+    elif unit2 == "reaumur":
+        print(value * 0.8)
+
+if unit == "fahrenheit":
+    if unit2 == "fahrenheit":
+        print(((value - 32) * 5/9) * 9 / 5 + 32)
+    elif unit2 == "kelvin":
+        print(((value - 32) * 5/9) + 273.15)
+    elif unit2 == "reaumur":
+        print(((value - 32) * 5/9) * 0.8)
+    elif unit2 == 'celsius':
+        print(((value - 32) * 5/9))
+        
+if unit == "kelvin":
+    if unit2 == "fahrenheit":
+        print((value - 273.15) * 9 / 5 + 32)
+    elif unit2 == "kelvin":
+        print((value - 273.15) + 273.15)
+    elif unit2 == "reaumur":
+        print((value -273.15) * 0.8)
+    elif unit2 == "celsius":
+        print(value - 273.15)
+        
+if unit == "reaumur":
+    if unit2 == "fahrenheit":
+        print((value / 0.8) * 9 / 5 + 32)
+    elif unit2 == "kelvin":
+        print((value / 0.8) + 273.15)
+    elif unit2 == "reaumur":
+        print((value / 0.8) * 0.8)
+    elif unit2 == celsius:
+        print((value / 0.8))
