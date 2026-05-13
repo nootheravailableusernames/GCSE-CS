@@ -1,0 +1,4 @@
+Genres = ['Pop', 'Hiphop', 'Jazz', 'Classical', 'Blues', 'Country', 'Rock']
+print(Genres)
+selection = input()
+PopArtists = ['Michael Jackson', 'Prince', '']
